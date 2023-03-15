@@ -1,4 +1,4 @@
-FROM fedora:38
+FROM fedora:37
 
 LABEL maintainer="David HEURTEVENT <david@heurtevent.org>"
 LABEL build_date="2023-03-15"
