@@ -42,11 +42,6 @@ Fedora is a short-life cycle distro for the use of the latest software.
 |2017 |27 | `docker pull fruafr/fedora:27`       |2018-11        |27        |
 |2017 |26 | `docker pull fruafr/fedora:26`       |2018-05        |26        |
 |2016 |25 | `docker pull fruafr/fedora:25`       |2017-12        |25        |
-|2016 |24 | `docker pull fruafr/fedora:24`       |2017-08        |24        |
-|2015 |23 | `docker pull fruafr/fedora:23`       |2016-12        |23        |
-|2015 |22 | `docker pull fruafr/fedora:22`       |2016-07        |22        |
-|2014 |21 | `docker pull fruafr/fedora:21`       |2015-12        |21        |
-|2013 |20 | `docker pull fruafr/fedora:20`       |2015-06        |20        |
 
 The containers are generated on Ubuntu. 
 
@@ -109,5 +104,13 @@ Fedora is a short-life cycle distro for the use of the latest software.
 |2015 |22 | `docker pull fedora:22`       |2016-07        |22        |
 |2014 |21 | `docker pull fedora:21`       |2015-12        |21        |
 |2013 |20 | `docker pull fedora:20`       |2015-06        |20        |
+
+#### Equivalences between Fedora and RHEL
+
+[Fedora serves as the basis of Red Hat Enterprise Linux](https://docs.fedoraproject.org/en-US/quick-docs/fedora-and-red-hat-enterprise-linux/index.html):
+- Fedora 34 for RHEL9
+- Fedora 28 for RHEL8
+- Fedora 19/20 for RHEL7
+- Fedora 12/13 for RHEL6
 ----
 Updated : 2023-03-15
