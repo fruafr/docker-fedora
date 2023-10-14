@@ -6,13 +6,11 @@ The Dockerfiles are available in the [fruafr/docker-fedora Github repository](ht
 
 The resulting docker containers are available in the [fruafr/fedora Docker Hub](https://hub.docker.com/repository/docker/fruafr/fedora)
 
-[![fedora build status](https://img.shields.io/docker/cloud/build/fruafr/fedora.svg)](https://hub.docker.com/repository/docker/fruafr/fedora)
-
 ## Current
 
 |Fedora Version      |Docker image tag                         |Current Version |Repo Branch   |
 |--------------------|-----------------------------------------|----------------|--------------|
-|latest              |`docker pull fruafr/fedora:latest`       |37        |latest        |
+|latest              |`docker pull fruafr/fedora:latest`       |38        |latest        |
 |38 | `docker pull fruafr/fedora:38`       |38 (2023)        |38        |
 |37 | `docker pull fruafr/fedora:37`       |37        |37        |
 
@@ -24,13 +22,14 @@ Fedora is a short-life cycle distro for the use of the latest software.
 
 |Year Released |Fedora Version |Docker image tag                     |End of Life                      |Repo Branch    |
 |--------------|---------------|-------------------------------------|--------------------------|---------------|
+|2023|38 | `docker pull frua.fr/fedora:38`       |38 (2023)        |38        |
 |2022 |37 | `docker pull fruafr/fedora:37`       |?        |37        |
-|2022 |36 | `docker pull fruafr/fedora:36`       |?        |36        |
 
 ### Obsolete versions 
 
 |Year Released |Fedora Version |Docker image tag                     |End of Life                   |Repo Branch  |
 |--------------|---------------|-------------------------------------|---------------------------------|-------------|
+|2022 |36 | `docker pull fruafr/fedora:36`       |?        |36        |
 |2021 |35 | `docker pull fruafr/fedora:35`       |2022-12        |35        |
 |2021 |34 | `docker pull fruafr/fedora:34`       |2022-06        |34        |
 |2020 |33 | `docker pull fruafr/fedora:33`       |2021-11        |33        |
@@ -69,7 +68,7 @@ docker run \
 
 |Fedora Version      |Docker image tag                         |Current Version |Repo Branch   |
 |--------------------|-----------------------------------------|----------------|--------------|
-|latest              |`docker pull fedora:latest`       |37        |latest        |
+|latest              |`docker pull fedora:latest`       |38        |latest        |
 |38 | `docker pull fedora:38`       |38 (2023)        |38        |
 |37 | `docker pull fedora:37`       |37        |37        |
 
@@ -81,13 +80,14 @@ Fedora is a short-life cycle distro for the use of the latest software.
 
 |Year Released |Fedora Version |Docker image tag                     |End of Life                      |Repo Branch    |
 |--------------|---------------|-------------------------------------|--------------------------|---------------|
+|2023 |38 | `docker pull fedora:38`       |?        |38        |
 |2022 |37 | `docker pull fedora:37`       |?        |37        |
-|2022 |36 | `docker pull fedora:36`       |?        |36        |
 
 #### Obsolete versions 
 
 |Year Released |Fedora Version |Docker image tag                     |End of Life                   |Repo Branch  |
 |--------------|---------------|-------------------------------------|---------------------------------|-------------|
+|2022 |36 | `docker pull fedora:36`       |2023-05       |36        |
 |2021 |35 | `docker pull fedora:35`       |2022-12        |35        |
 |2021 |34 | `docker pull fedora:34`       |2022-06        |34        |
 |2020 |33 | `docker pull fedora:33`       |2021-11        |33        |
@@ -113,4 +113,4 @@ Fedora is a short-life cycle distro for the use of the latest software.
 - Fedora 19/20 for RHEL7
 - Fedora 12/13 for RHEL6
 ----
-Updated : 2023-03-15
+Updated : 2023-10-14
